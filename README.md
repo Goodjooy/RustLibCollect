@@ -1,4 +1,4 @@
-# RustLibCreateCollect
+# RustLibCollect
 
 Marked 的 Rust Crate 收集
 
@@ -81,6 +81,9 @@ Marked 的 Rust Crate 收集
 ## `async` 运行时以及附属套件
 
 ## 框架
+
+- `sea-orm` 动态，异步的ORM
+
 
 ## 过程宏相关
 
