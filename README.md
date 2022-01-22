@@ -96,9 +96,14 @@ Marked 的 Rust Crate 收集
 
 - `diesel` 静态, 同步阻塞 ORM
   - **_待添加_**
+  
 - `rocket` Http web 服务器框架
   - **_待添加_**
+
 - `pest` 优雅的语法解析器
+  - **_待添加_**
+
+- `actix` 提供基于`tokio` 的 Actor 模型
   - **_待添加_**
 
 ## 过程宏相关

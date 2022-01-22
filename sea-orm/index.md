@@ -102,9 +102,9 @@
     ```
 
 - `Condition` orm筛选器构造器 [参考](https://www.sea-ql.org/SeaORM/docs/advanced-query/conditional-expression)
-    - `all()` 模式 全部表达式都满足
-    - `any()` 模式 一个表达式满足
-    - `Condition` 可以嵌套使用
+  - `all()` 模式 全部表达式都满足
+  - `any()` 模式 一个表达式满足
+  - `Condition` 可以嵌套使用
 
 - orm 简单使用
 
