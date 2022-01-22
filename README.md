@@ -82,7 +82,10 @@ Marked 的 Rust Crate 收集
 
 ## 框架
 
-- `sea-orm` 动态，异步的ORM
+- `sea-orm` 动态，异步的ORM (基于sqlx)
+  - [项目地址](https://github.com/SeaQL/sea-orm) | [主页](https://www.sea-ql.org/SeaORM/)
+  - features配置[参考](https://www.sea-ql.org/SeaORM/docs/install-and-config/database-and-async-runtime)
+  - [更多](./sea-orm/index.md)
 
 
 ## 过程宏相关
