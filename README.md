@@ -2,6 +2,8 @@
 
 Marked 的 Rust Crate 收集
 
+[扩展参考](./Expand-rule.md)
+
 以下会简单进行分类
 
 ## 基础套件
@@ -72,6 +74,7 @@ Marked 的 Rust Crate 收集
   - [项目地址](https://github.com/DaGenix/rust-crypto/)
 
 - `log` rust 官方提供的日志使用形态（需要配合 logger 使用）
+
   - [项目地址](https://github.com/rust-lang/log)
   - [可用`logger`s](https://docs.rs/log/latest/log/#available-logging-implementations)
 
@@ -80,13 +83,23 @@ Marked 的 Rust Crate 收集
 
 ## `async` 运行时以及附属套件
 
+- `tokio` 异步运行时
+  - **_待添加_**
+
 ## 框架
 
-- `sea-orm` 动态，异步的ORM (基于sqlx)
+- `sea-orm` 动态，异步的 ORM (基于 sqlx)
+
   - [项目地址](https://github.com/SeaQL/sea-orm) | [主页](https://www.sea-ql.org/SeaORM/)
-  - features配置[参考](https://www.sea-ql.org/SeaORM/docs/install-and-config/database-and-async-runtime)
+  - features 配置[参考](https://www.sea-ql.org/SeaORM/docs/install-and-config/database-and-async-runtime)
   - [更多](./sea-orm/index.md)
 
+- `diesel` 静态, 同步阻塞 ORM
+  - **_待添加_**
+- `rocket` Http web 服务器框架
+  - **_待添加_**
+- `pest` 优雅的语法解析器
+  - **_待添加_**
 
 ## 过程宏相关
 
