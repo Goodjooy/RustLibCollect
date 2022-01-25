@@ -75,7 +75,7 @@ Marked 的 Rust Crate 收集
 
 - `log` rust 官方提供的日志使用形态（需要配合 logger 使用）
 
-  - [项目地址](https://github.com/rust-lang/log)
+  - [项目地址](https://github.com/rust-lang/log)  
   - [可用`logger`s](https://docs.rs/log/latest/log/#available-logging-implementations)
 
 - `dotenv` 环境变量获取库
@@ -84,7 +84,13 @@ Marked 的 Rust Crate 收集
 ## `async` 运行时以及附属套件
 
 - `tokio` 异步运行时
-  - **_待添加_**
+  - [首页](https://tokio.rs/) | [项目地址](https://github.com/tokio-rs/tokio)
+  - [更多](./tokio/index.md)
+  - 常用 features
+    - `sync` : 提供 `tokio` 中的 `sync` 功能
+    - `rt` : 提供 `tokio` 异步运行时使用支持
+    - `rt-multi-thread` : 提供 `tokio` 启动多线程运行时支持
+    - `time` : 提供时间相关`tokio`接口
 
 ## 框架
 
@@ -95,17 +101,35 @@ Marked 的 Rust Crate 收集
   - [更多](./sea-orm/index.md)
 
 - `diesel` 静态, 同步阻塞 ORM
-  - **_待添加_**
-  
+  - [首页](http://diesel.rs/) | [项目地址](https://github.com/diesel-rs/diesel/)
+
 - `rocket` Http web 服务器框架
-  - **_待添加_**
+  - [首页](https://rocket.rs/) | [项目地址](https://github.com/SergioBenitez/Rocket)
+  - [更多](./rocket/index.md)
+  - 常用 features
+    - `json` : 开启json解析功能
+    - `secrets` : 开启加密cookie功能
 
 - `pest` 优雅的语法解析器
-  - **_待添加_**
+  - [首页](https://pest.rs/) | [项目地址](https://github.com/pest-parser/pest)
+  - [更多](./pest/index.md)
 
 - `actix` 提供基于`tokio` 的 Actor 模型
-  - **_待添加_**
+  - [项目地址](https://github.com/actix/actix)
 
 ## 过程宏相关
+
+- `syn` 过程宏常用抽象语法树转换器
+  - [项目地址](https://github.com/dtolnay/syn)
+
+- `quote` 提供 `quote!` 辅助构造 `TokenStream`
+  - [项目地址](https://github.com/dtolnay/quote)
+
+- `proc-macro2` 对于编译器提供的 `proc_macro`
+  - [项目地址](https://github.com/dtolnay/proc-macro2)
+
+- `darling` 辅助解析过程宏参数
+  - [项目地址](https://github.com/TedDriggs/darling)
+  - [更多](./darling.rs)
 
 ## 开发辅助
