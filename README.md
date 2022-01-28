@@ -81,6 +81,9 @@ Marked 的 Rust Crate 收集
 - `dotenv` 环境变量获取库
   - [项目地址](https://github.com/dotenv-rs/dotenv)
 
+- `cached` 缓存工具库
+  - [项目地址](https://github.com/jaemk/cached)
+  
 ## `async` 运行时以及附属套件
 
 - `tokio` 异步运行时
